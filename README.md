@@ -53,7 +53,7 @@ This tool allows you to **run live consistency checks** to ensure your gRPC bloc
 Clone this repository:
 
 ```bash
-git clone https://github.com/your-repo/solana-grpc-integrity-checker.git
+git clone https://github.com/Shyft-to/solana-grpc-integrity-checker
 cd solana-grpc-integrity-checker
 ```
 
