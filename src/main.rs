@@ -34,7 +34,7 @@ struct Args {
     #[clap(long)]
     rpc_uri: String,
 
-    #[clap(long, default_value = "60")] timeout: u64, // seconds
+    #[clap(long, default_value = "60")] duration: u64, // seconds
 }
 
 impl Args {
@@ -221,7 +221,7 @@ fn main() -> anyhow::Result<()> {
         let stream_handle = tokio::spawn(run_stream_for_duration(
             args.clone(),
             blocks_request,
-            Duration::from_secs(args.timeout),
+            Duration::from_secs(args.duration),
         ));
 
         stream_handle.await?;
