@@ -39,13 +39,7 @@ This tool allows you to **run live consistency checks** to ensure your gRPC bloc
 - Produces a final summary report  
 - Auto-retry gRPC stream on disconnect  
 - Stop execution after a configured duration  
-- Clean structured logs:
-
-```
-[MATCH] slot=380658540 grpc_tx=1143 rpc_tx=1143
-[MISMATCH] slot=380658542 grpc_tx=1109 rpc_tx=1110 delta=-1
-```
-
+- Clean structured logs
 ---
 
 ## ⚙️ Installation
