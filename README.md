@@ -35,7 +35,6 @@ This tool allows you to **run live consistency checks** to ensure your gRPC bloc
   - Slot number  
   - gRPC tx count  
   - RPC tx count  
-  - Delta (difference)  
 - Produces a final summary report  
 - Auto-retry gRPC stream on disconnect  
 - Stop execution after a configured duration  
