@@ -198,3 +198,6 @@ Feel free to open PRs for:
 - Support for multiple RPC endpoints
 
 ---
+## 📄 License
+
+[MIT License](LICENSE "MIT License")
