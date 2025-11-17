@@ -85,11 +85,11 @@ target/release/solana_grpc_integrity_checker
 ### Example
 
 ```bash
-./target/build/release/solana_grpc_integrity_checker --endpoint https://grpc.sgp.shyft.to --x_token YOUR_X_TOKEN     --rpc_uri https://rpc.sgp.shyft.to?api_key=YOUR_API_KEY --duration 30
+./target/build/release/solana_grpc_integrity_checker --endpoint https://grpc.sgp.shyft.to --x_token YOUR_X_TOKEN --rpc_uri https://rpc.sgp.shyft.to?api_key=YOUR_API_KEY --duration 30
 ```
 or
 ```bash
-cargo run -- --endpoint https://grpc.sgp.shyft.to --x_token YOUR_X_TOKEN     --rpc_uri https://rpc.sgp.shyft.to?api_key=YOUR_API_KEY --duration 30
+cargo run -- --endpoint https://grpc.sgp.shyft.to --x_token YOUR_X_TOKEN --rpc_uri https://rpc.sgp.shyft.to?api_key=YOUR_API_KEY --duration 30
 ```
 
 The checker will run for the configured duration (default: 60 seconds) and produce logs like:
